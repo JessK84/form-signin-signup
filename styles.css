@@ -1,7 +1,114 @@
-html, body {
-  height: 100%;
-  font-family: BlinkMacSystemFont,-apple-system,"Segoe UI",Roboto,Oxygen,Ubuntu,Cantarell,"Fira Sans","Droid Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+
+#card-login {
+  background-color: hsl(0, 0%, 96%)
+}
+.main-container {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: center;
+  margin: 30px auto;
+  width: 1100px;
+  height: 550px;
+  box-shadow: 3px 5px 5px 5px #c0bdbd;
+  border-radius: 10px;
+  background-color: white;
+  
+}
+.img-login {
+  background-color: #00D1B2;
+  margin: 0px auto;
+  width: 650px;
+  height: 550px;
+  border-radius: 0px 10px 10px 0px;
+  text-align: center;
+  overflow: hidden;
+}
+.img-form {
+  width: 500px;
+  margin-top: 20px;
+}
+
+.second-container {
+  margin: 90px 50px;
+}
+
+.tittle {
+  font-family: 'Roboto', sans-serif;
+  color: #363636;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 12px;
+  font-weight: 600;
+}
+.sub-tittle {
+  font-family: 'News Cycle', sans-serif;
+  color: #363636;
+  font-size: 32px;
+  font-weight: 100;
+  line-height: 20px;
+}
+.user-one {
+  font-family: 'Roboto', sans-serif;
+  color: #363636;
   font-size: 16px;
-  line-height: 24px;
-  background-color: #f5f5f5;
+  font-weight: 600;
+  line-height: 32px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0px;
+}
+.inbox {
+  height: 40px;
+  width: 350px;
+  padding: 0px 10px;
+  border-radius: 5px;
+  font-size: 16px;
+  border: 0.9px solid #DBDBDB;
+  box-shadow: 0.3px 0.43px 0.60px #DBDBDB;
+  background-color: white;
+}
+
+.user-second {
+  font-family: 'Roboto', sans-serif;
+  color: #363636;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 32px;
+  display: flex;
+  flex-direction: column;
+  padding: 8px 0px;
+}
+.button-send {
+  background-color: #00d1b2;
+  height: 40px;
+  border-radius: 4px;
+  border: 1px solid #00d1b2;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  text-align: center;
+  padding: 2px 20px;
+  cursor: pointer;
+}
+
+
+.box-button {
+  padding-top: 25px;
+}
+
+
+.text-button {
+  font-family: 'News Cycle', sans-serif;
+  color: #9e9d9d;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 12px;
+}
+.registred {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+::placeholder {
+  color: rgb(218, 211, 211);
 }

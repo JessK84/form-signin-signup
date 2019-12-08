@@ -4,10 +4,39 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>Document</title>
+  <title>Form-login  </title>
   <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=News+Cycle&display=swap" rel="stylesheet">
 </head>
-<body>
-  
+
+
+<body id="card-login">
+  <main class="main-container">
+      <div class="img-login">
+      <img src="https://assets-ouch.icons8.com/preview/809/b132c8e3-b3cd-4c55-9efe-5495d998bb38.png" alt="login" class="img-form">
+      </div>
+    
+      <form >
+          <section class="second-container">
+            <h1 class="tittle" >Hola!</h1>
+            <h2 class="sub-tittle">Te estábamos esperando</h2>
+        
+        <div class="user-one">
+          <label for="user-email">Email</label>
+          <input type="email" id="user-email" placeholder="ejemplo@dominio.com" class="inbox" >
+        </div>
+        <div class="user-second">
+          <label for="user-password">Contraseña</label>
+          <input type="password" id="password" placeholder="Ingresa tu contraseña" class="inbox">
+        </div>
+        <div class="box-button">
+          <button type="submit" class="button-send" >Ingresar</button>
+          <p class="text-button">No tienes una cuenta? <a href="google.com" class="registred">Regístrate</a></p>
+        </div>
+          </section>
+      </form>
+   
+  </main>
 </body>
 </html>
