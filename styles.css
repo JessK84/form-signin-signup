@@ -1,6 +1,7 @@
 
 #card-login {
-  background-color: hsl(0, 0%, 96%)
+  background-color: hsl(0, 0%, 96%);
+  margin: 0px;
 }
 .main-container {
   display: flex;
@@ -29,7 +30,7 @@
 }
 
 .second-container {
-  margin: 90px 50px;
+  margin: 70px 50px;
 }
 
 .tittle {
@@ -55,7 +56,8 @@
   line-height: 32px;
   display: flex;
   flex-direction: column;
-  padding: 8px 0px;
+  padding-top: 8px;
+
 }
 .inbox {
   height: 40px;
@@ -76,7 +78,8 @@
   line-height: 32px;
   display: flex;
   flex-direction: column;
-  padding: 8px 0px;
+  padding-top: 8px;
+
 }
 .button-send {
   background-color: #00d1b2;
@@ -111,4 +114,17 @@
 
 ::placeholder {
   color: rgb(218, 211, 211);
+  padding: 0px 25px;
+}
+
+
+
+.user-icon {
+  position: absolute;
+  top: calc(50% - 8px);
+  right: calc(95% - 7px);
+}
+
+.icon {
+  position: relative;
 }
